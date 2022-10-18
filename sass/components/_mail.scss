@@ -1,0 +1,106 @@
+.mail {
+    @media screen and (min-width: 1200px) {
+    margin-left: 93px;}
+   
+&__title {  
+    @media screen and (max-width:1199px) {
+    margin-top: 60px;}
+
+    color: $primary-accent-color;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.7;
+    margin-bottom: 20px;}
+
+    @media screen and (max-width: 1199px) {
+    text-align: center;}
+}
+
+.mail-list {
+    @media screen and (min-width: 1200px) {
+    display: flex;}
+    transition: $speed-transition;
+}
+
+.mail-list input {
+    color: $accent-color;
+
+&::placeholder {
+    color: $primary-text-color;
+    padding-left: 16px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+}
+.mail-list__form {
+    display: flex;
+}
+.mail-list__id {
+    width: 100%;
+    @media screen and (min-width: 768px) {
+    width: 450px;
+    display: block;
+    justify-content: center;
+
+    margin-left: auto;
+    margin-right: auto;}
+
+    
+    @media screen and (min-width: 1200px) {
+    width: 358px;
+    height: 50px;
+    margin-right: 12px;
+    padding: 0;}
+
+    height: 50px;
+    margin-bottom: 20px;
+
+    background-color: $background-second-color;
+    border: 1px solid $footer-mail-list-bgr;
+    filter: $drop-shadow;
+    border-radius: 4px;
+
+}
+
+.signature {
+    position: relative;
+
+    
+    &__icon {
+    margin: 0 auto;
+    @media screen and (min-width: 1200px) {
+    right: 15%;
+    }
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 13px;
+    margin-left: 35px;
+    fill: $primary-accent-color;}
+
+
+&__button {
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-left: 31px;
+    width: 200px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 1.9;
+    
+    color: $primary-accent-color;
+    background-color: $accent-color;
+
+    border-radius: 4px;
+    border: 1px solid transparent;
+
+    &:hover,
+    &:focus {
+    box-shadow: $box-shadow;
+    transition: $speed-transition;}
+}}

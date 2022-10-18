@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./dist/css/profile.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+  </head>
+  <body>
+    <header class="header-page">
+      <div class="header-page__burger container">
+        <a href="./index.html" lang="en" class="webstudio"
+          >Web<span class="webstudio__logo">Studio</span></a
+        >
+        <button
+          class="btn-menu js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+          aria-label="open menu"
+        >
+          <svg width="40" height="40" class="menu-icon">
+            <use href="./image/symbol-defs.svg#icon-menu"></use>
+          </svg>
+        </button>
+        <div class="menu js-menu-container" id="mobile-menu">
+          <button class="js-close-menu">
+            <svg class="burger__icon">
+              <use href="./image/symbol-defs.svg#icon-close"></use>
+            </svg>
+          </button>
+          <nav class="header-nav">
+            <ul class="site-nav">
+              <li class="site-nav__item">
+                <a
+                  href="./index.html"
+                  class="site-nav__link site-nav__link--current"
+                  >Студія</a
+                >
+              </li>
+              <li class="site-nav__item">
+                <a href="./portfolio.html" class="site-nav__link">Портфоліо</a>
+              </li>
+              <li class="site-nav__item">
+                <a href="" class="site-nav__link">Контакти</a>
+              </li>
+            </ul>
+          </nav>
+          <div>
+            <ul class="site-contact page">
+              <li class="site-contact__item">
+                <a
+                  href="mailto:info@devstudio.com"
+                  class="site-contact__mail link"
+                >
+                  <svg class="icon-nav" width="16px" height="12px">
+                    <use href="./image/symbol-defs.svg#icon-mail"></use>
+                  </svg>
+                  info@devstudio.com
+                </a>
+              </li>
+              <li class="site-contact__item">
+                <a href="tel:+380961111111" class="site-contact__number link">
+                  <svg class="icon-nav" width="12px" height="16px">
+                    <use href="./image/symbol-defs.svg#icon-mobile"></use>
+                  </svg>
+                  +38 096 111 11 11</a
+                >
+              </li>
+            </ul>
+            <ul class="social page">
+              <li class="social__item">
+                <a href="" class="social__link link insta">Instagram</a>
+              </li>
+              <li class="social__item">
+                <a href="" class="social__link link">Twitter</a>
+              </li>
+              <li class="social__item">
+                <a href="" class="social__link link">Facebook</a>
+              </li>
+              <li class="social__item">
+                <a href="" class="social__link link">LinkedIn</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <!--hidden h-->
+      <section>
+        <div class="container">
+          <h1 hidden>Portfolio</h1>
+          <ul class="button__portfolio">
+            <li>
+              <button type="button" class="button__type">Усі</button>
+            </li>
+            <li>
+              <button type="button" class="button__type">Веб-сайти</button>
+            </li>
+            <li>
+              <button type="button" class="button__type">Додатки</button>
+            </li>
+            <li>
+              <button type="button" class="button__type">Дизайн</button>
+            </li>
+            <li>
+              <button type="button" class="button__type">Маркетинг</button>
+            </li>
+          </ul>
+        </div>
+        <div class="container">
+          <ul class="gallery">
+            <li class="gallery__item">
+              <article>
+                <a class="gallery__link" href="#">
+                  <div class="gallery__card">
+                    <img
+                      src="./image/Portfolio/Portfolio-1.jpg"
+                      alt="laptop"
+                      width="370"
+                      height="294"
+                    />
+                    <div class="gallery__hover">
+                      <p class="gallery__book">
+                        Ресурс пропонує комплексні пропозиції з різним рівнем
+                        функціоналу та сервісів. Все це дозволить відвідувачу
+                        отримати вичерпні відомості про компанію чи приватну
+                        особу.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="gallery__card gallery__card--content">
+                    <h3 class="gallery__title">Технокряк</h3>
+                    <p class="gallery__text">Веб-сайт</p>
+                  </div>
+                </a>
+              </article>
+            </li>
+            <li class="gallery__item">
+              <article>
+                <a class="gallery__link" href="#">
+                  <div class="gallery__card">
+                    <img
+                      src="./image/Portfolio/Portfolio-2.jpg"
+                      alt="laptop"
+                      width="370"
+                      height="294"
+                    />
+                    <div class="gallery__hover">
+                      <p class="gallery__book">
+                        Ресурс пропонує комплексні пропозиції з різним рівнем
+                        функціоналу та сервісів. Все це дозволить відвідувачу
+                        отримати вичерпні відомості про компанію чи приватну
+                        особу.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="gallery__card gallery__card--content">
+                    <h3 class="gallery__title">Технокряк</h3>
+                    <p class="gallery__text">Веб-сайт</p>
+                  </div>
+                </a>
+              </article>
+            </li>
+            <li class="gallery__item">
+              <article>
+                <a class="gallery__link" href="#">
+                  <div class="gallery__card">
+                    <img
+                      src="./image/Portfolio/Portfolio-3.jpg"
+                      alt="laptop"
+                      width="370"
+                      height="294"
+                    />
+                    <div class="gallery__hover">
+                      <p class="gallery__book">
+                        Ресурс пропонує комплексні пропозиції з різним рівнем
+                        функціоналу та сервісів. Все це дозволить відвідувачу
+                        отримати вичерпні відомості про компанію чи приватну
+                        особу.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="gallery__card gallery__card--content">
+                    <h3 class="gallery__title">Технокряк</h3>
+                    <p class="gallery__text">Веб-сайт</p>
+                  </div>
+                </a>
+              </article>
+            </li>
+
+            <li class="gallery__item">
+              <article>
+                <a class="gallery__link" href="#">
+                  <div class="gallery__card">
+                    <img
+                      src="./image/Portfolio/Portfolio-4.jpg"
+                      alt="laptop"
+                      width="370"
+                      height="294"
+                    />
+                    <div class="gallery__hover">
+                      <p class="gallery__book">
+                        Ресурс пропонує комплексні пропозиції з різним рівнем
+                        функціоналу та сервісів. Все це дозволить відвідувачу
+                        отримати вичерпні відомості про компанію чи приватну
+                        особу.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="gallery__card gallery__card--content">
+                    <h3 class="gallery__title">Технокряк</h3>
+                    <p class="gallery__text">Веб-сайт</p>
+                  </div>
+                </a>
+              </article>
+            </li>
+            <li class="gallery__item">
+              <article>
+                <a class="gallery__link" href="#">
+                  <div class="gallery__card">
+                    <img
+                      src="./image/Portfolio/Portfolio-5.jpg"
+                      alt="laptop"
+                      width="370"
+                      height="294"
+                    />
+                    <div class="gallery__hover">
+                      <p class="gallery__book">
+                        Ресурс пропонує комплексні пропозиції з різним рівнем
+                        функціоналу та сервісів. Все це дозволить відвідувачу
+                        отримати вичерпні відомості про компанію чи приватну
+                        особу.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="gallery__card gallery__card--content">
+                    <h3 class="gallery__title">Технокряк</h3>
+                    <p class="gallery__text">Веб-сайт</p>
+                  </div>
+                </a>
+              </article>
+            </li>
+            <li class="gallery__item">
+              <article>
+                <a class="gallery__link" href="#">
+                  <div class="gallery__card">
+                    <img
+                      src="./image/Portfolio/Portfolio-6.jpg"
+                      alt="laptop"
+                      width="370"
+                      height="294"
+                    />
+                    <div class="gallery__hover">
+                      <p class="gallery__book">
+                        Ресурс пропонує комплексні пропозиції з різним рівнем
+                        функціоналу та сервісів. Все це дозволить відвідувачу
+                        отримати вичерпні відомості про компанію чи приватну
+                        особу.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="gallery__card gallery__card--content">
+                    <h3 class="gallery__title">Технокряк</h3>
+                    <p class="gallery__text">Веб-сайт</p>
+                  </div>
+                </a>
+              </article>
+            </li>
+            <li class="gallery__item">
+              <article>
+                <a class="gallery__link" href="#">
+                  <div class="gallery__card">
+                    <img
+                      src="./image/Portfolio/Portfolio-7.jpg"
+                      alt="laptop"
+                      width="370"
+                      height="294"
+                    />
+                    <div class="gallery__hover">
+                      <p class="gallery__book">
+                        Ресурс пропонує комплексні пропозиції з різним рівнем
+                        функціоналу та сервісів. Все це дозволить відвідувачу
+                        отримати вичерпні відомості про компанію чи приватну
+                        особу.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="gallery__card gallery__card--content">
+                    <h3 class="gallery__title">Технокряк</h3>
+                    <p class="gallery__text">Веб-сайт</p>
+                  </div>
+                </a>
+              </article>
+            </li>
+            <li class="gallery__item">
+              <article>
+                <a class="gallery__link" href="#">
+                  <div class="gallery__card">
+                    <img
+                      src="./image/Portfolio/Portfolio-8.jpg"
+                      alt="laptop"
+                      width="370"
+                      height="294"
+                    />
+                    <div class="gallery__hover">
+                      <p class="gallery__book">
+                        Ресурс пропонує комплексні пропозиції з різним рівнем
+                        функціоналу та сервісів. Все це дозволить відвідувачу
+                        отримати вичерпні відомості про компанію чи приватну
+                        особу.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="gallery__card gallery__card--content">
+                    <h3 class="gallery__title">Технокряк</h3>
+                    <p class="gallery__text">Веб-сайт</p>
+                  </div>
+                </a>
+              </article>
+            </li>
+            <li class="gallery__item">
+              <article>
+                <a class="gallery__link" href="#">
+                  <div class="gallery__card">
+                    <img
+                      src="./image/Portfolio/Portfolio-9.jpg"
+                      alt="laptop"
+                      width="370"
+                      height="294"
+                    />
+                    <div class="gallery__hover">
+                      <p class="gallery__book">
+                        Ресурс пропонує комплексні пропозиції з різним рівнем
+                        функціоналу та сервісів. Все це дозволить відвідувачу
+                        отримати вичерпні відомості про компанію чи приватну
+                        особу.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="gallery__card gallery__card--content">
+                    <h3 class="gallery__title">Технокряк</h3>
+                    <p class="gallery__text">Веб-сайт</p>
+                  </div>
+                </a>
+              </article>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="address">
+          <a class="webstudio" href="index.html">
+            Web<span class="address__logo">Studio</span></a
+          >
+          <address>
+            <ul class="address__page">
+              <li>
+                <a
+                  class="address__gps"
+                  href="http://surl.li/bkaxq"
+                  target="_blank"
+                  rel="noopener noreferrer nofollow"
+                  >м. Київ пр-т Лесі Українки, 26</a
+                >
+              </li>
+              <li>
+                <a href="mailto:info@devstudio.com" class="address__link"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li>
+                <a href="tel:+380961111111" class="address__link"
+                  >+38 096 111 11 11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div>
+          <h3 class="network__title">ПРИЄДНЮЙТЕСЬ</h3>
+          <ul class="network">
+            <li class="network__item">
+              <a href="#" class="network__link">
+                <svg width="20px" height="20px">
+                  <use href="./image/icons/sprite.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="network__item">
+              <a href="#" class="network__link">
+                <svg width="20" height="20">
+                  <use href="./image/icons/sprite.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="network__item">
+              <a href="#" class="network__link">
+                <svg width="20" height="20">
+                  <use href="./image/icons/sprite.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="network__item">
+              <a href="#" class="network__link">
+                <svg width="20" height="20">
+                  <use href="./image/icons/sprite.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="mail">
+          <h3 class="mail__title">ПІДПИШІТЬСЯ НА РОЗСИЛКУ</h3>
+          <div class="mail-list">
+            <form>
+              <input
+                class="mail-list__id"
+                type="email"
+                name="tel"
+                id="mail"
+                placeholder="E-mail"
+              />
+            </form>
+            <div class="signature">
+              <button class="signature__button" type="submit">
+                Підписатися
+              </button>
+              <svg class="signature__icon">
+                <use href="./image/symbol-defs.svg#icon-icon-send"></use>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/burger-menu.js"></script>
+  </body>
+</html>

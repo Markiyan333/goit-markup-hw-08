@@ -1,0 +1,106 @@
+$primary-text-color: #757575;
+$title-color: #212121;
+$accent-color: #2196F3;
+$primary-accent-color: #FFFFFF;
+$background-second-color: #2F303A;
+$background-product-card: rgba(47, 48, 58, 0.8);
+$gray-icon-color: #AFB1B8;
+$border-header:#ECECEC;
+$bgr-three:#F5F4FA;
+$drop-shadow: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+$footer-adress-color: rgba(255, 255, 255, 0.6);
+$footer-network-bgr: rgba(255, 255, 255, 0.1);
+$footer-mail-list-bgr: rgba(255, 255, 255, 0.3);
+$modal-color: rgba(117, 117, 117, 0.5);
+$modal-border-color: rgba(33, 33, 33, 0.2);
+$modal-close-border: rgba(0, 0, 0, 0.1);
+$modal-background: rgba(0, 0, 0, 0.2);
+$portfolio-box-shadow: 0px 1px 1px rgba(165, 89, 89, 0.12),
+    0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+$card-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+$box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+$card-sat-gap: 30px;
+$speed-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+$value: 100%;
+$fonts-ralevey: Raleway;
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background: $primary-accent-color;
+    color: $primary-text-color;
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+    font-size: 16px;
+    line-height: 1.9;
+}
+
+header {
+    background-color: $primary-accent-color;
+    border-bottom: 1px solid $border-header;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+
+p {
+    margin: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+}
+
+button {
+    font-family: inherit;
+    display: inline-block;
+    border: 1px solid transparent;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+}
+
+
+
+.container {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+
+    
+    @media screen and (min-width: 480px ) {
+    width: 480px;}
+  
+
+    @media screen and (min-width: 768px) {
+    width: 768px; }
+    
+    @media screen and (min-width: 1200px) {
+    width: 1200px;}
+}
